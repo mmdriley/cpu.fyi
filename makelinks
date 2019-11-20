@@ -1,0 +1,15 @@
+#!/bin/bash
+set -o errexit -o nounset -o pipefail
+
+mkdir -p links
+
+find links/ -type l -delete
+find pdfjs/web/ -type l -delete
+
+sha256sums=$(find docs -name '*.pdf' -exec shasum -a 256 {} +)
+
+while read hash filename; do
+  # If there happens to be a collision, `ln` will fail.
+  ln -s "../${filename}" "links/${hash:0:3}"
+  ln -s "viewer2.html" "pdfjs/web/${hash:0:3}.html"
+done <<< "${sha256sums}"
