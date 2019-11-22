@@ -1,0 +1,16 @@
+047	../docs/arm/2019-07-05/DDI0487E_a_armv8_arm.pdf
+05c	../docs/amd/2017-06/55723_3_00.PDF
+2de	../docs/amd/2018-07/56255_3_03.PDF
+33b	../docs/intel/2019-05/335592-sdm-vol-4.pdf
+47e	../docs/intel/2019-05/253665-sdm-vol-1.pdf
+484	../docs/intel/2019-05/325383-sdm-vol-2abcd.pdf
+622	../docs/amd/2018-05/26569_APM_V5.pdf
+749	../docs/intel/2019-05/325384-sdm-vol-3abcd.pdf
+83c	../docs/intel/2019-09/64-ia-32-architectures-optimization-manual.pdf
+9ac	../docs/amd/2019-08/56305_SOG_3.00_PUB.pdf
+9ba	../docs/amd/2019-06-14/54945_3.03_ppr_ZP_B2_pub.pdf
+a48	../docs/power/2017-03-29/PowerISA_public.v3.0B.pdf
+ad5	../docs/amd/2019-09/24594.pdf
+bb0	../docs/amd/2019-10/24593.pdf
+dcc	../docs/amd/2019-02/26568.pdf
+fa0	../docs/amd/2017-12/24592.pdf
