@@ -1,17 +1,30 @@
 #!/bin/bash
 set -o errexit -o nounset -o pipefail
 
+# Create symbolic links to PDF files in the repo named with prefixes of their
+# SHA256 hashes that can serve as short permalinks.
+#
+# In the first version, these links were three characters long. After we added
+# some new PDFs and saw a collision, they were extended to six characters. The
+# original three-character links need to stay in the repo so old links keep
+# working.
+
 mkdir -p links
 
-find links/ -type l -delete
-find pdfjs/web/ -type l -delete
+# Start with no links and recreate them all.
+# Well, *almost* no links: we leave behind older, shorter links.
+find links/ -name '??????' -type l -delete
+find pdfjs/web/ -name '??????.*' -type l -delete
 
+# Collect SHA256 for all PDFs in docs/
 sha256sums=$(find docs -iname '*.pdf' -exec shasum -a 256 {} +)
 
+# For each PDF, create a symlink for the file and for the viewer URL.
 while read hash filename; do
   # If there happens to be a collision, `ln` will fail.
-  ln -s "../${filename}" "links/${hash:0:3}"
-  ln -s "viewer2.html" "pdfjs/web/${hash:0:3}.html"
+  ln -s "../${filename}" "links/${hash:0:6}"
+  ln -s "viewer2.html" "pdfjs/web/${hash:0:6}.html"
 done <<< "${sha256sums}"
 
-find links -type l -printf '%f\t%l\n' | sort > links/map.txt
+# Write an index file that maps link names to their targets.
+find links -type l -printf '%f\t%l\n' | sort | tee links/map.txt
