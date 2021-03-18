@@ -8,6 +8,7 @@
 328f3a	../docs/intel/2020-05/325383-sdm-vol-2abcd.pdf
 33b	../docs/intel/2019-05/335592-sdm-vol-4.pdf
 33b2c9	../docs/intel/2019-05/335592-sdm-vol-4.pdf
+4336a7	../docs/power/2020-05-01/PowerISA_public.v3.1.pdf
 47e	../docs/intel/2019-05/253665-sdm-vol-1.pdf
 47e28e	../docs/intel/2019-05/253665-sdm-vol-1.pdf
 484	../docs/intel/2019-05/325383-sdm-vol-2abcd.pdf
