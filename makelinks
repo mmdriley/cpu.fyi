@@ -27,4 +27,10 @@ while read hash filename; do
 done <<< "${sha256sums}"
 
 # Write an index file that maps link names to their targets.
-find links -type l -printf '%f\t%l\n' | sort | tee links/map.txt
+# Uses `-printf` from GNU find. On macOS, `brew install findutils`.
+GNUFIND=find
+
+# https://formulae.brew.sh/formula/findutils
+which gfind >/dev/null && GNUFIND=gfind
+
+"${GNUFIND}" links -type l -printf '%f\t%l\n' | sort | tee links/map.txt
