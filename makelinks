@@ -33,4 +33,4 @@ GNUFIND=find
 # https://formulae.brew.sh/formula/findutils
 which gfind >/dev/null && GNUFIND=gfind
 
-"${GNUFIND}" links -type l -printf '%f\t%l\n' | sort | tee links/map.txt
+"${GNUFIND}" links -type l -printf '%f\t%l\n' | LANG=C sort | tee links/map.txt
