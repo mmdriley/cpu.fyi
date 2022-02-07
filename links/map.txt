@@ -18,6 +18,7 @@
 5d64d3	../docs/amd/2020-04/24594.pdf
 622	../docs/amd/2018-05/26569_APM_V5.pdf
 62255b	../docs/amd/2018-05/26569_APM_V5.pdf
+62af4d	../docs/arm/2022-02-04/DDI0487H_a_a-profile_architecture_reference_manual.pdf
 749	../docs/intel/2019-05/325384-sdm-vol-3abcd.pdf
 7497b2	../docs/intel/2019-05/325384-sdm-vol-3abcd.pdf
 83c	../docs/intel/2019-09/64-ia-32-architectures-optimization-manual.pdf
