@@ -17,14 +17,17 @@
 4a1b0c	../docs/amd/2025-06/24593_3.43.pdf
 511e45	../docs/amd/2020-05/26568.pdf
 575e52	../docs/intel/2020-05/325384-sdm-vol-3abcd.pdf
+5948b5	../docs/amd/2013-01-23/42301_15h_Mod_00h-0Fh_BKDG.pdf
 5d64d3	../docs/amd/2020-04/24594.pdf
 622	../docs/amd/2018-05/26569_APM_V5.pdf
 62255b	../docs/amd/2018-05/26569_APM_V5.pdf
+62ae3c	../docs/amd/2021-11/26569_3.16.pdf
 62af4d	../docs/arm/2022-02-04/DDI0487H_a_a-profile_architecture_reference_manual.pdf
 749	../docs/intel/2019-05/325384-sdm-vol-3abcd.pdf
 7497b2	../docs/intel/2019-05/325384-sdm-vol-3abcd.pdf
 83c	../docs/intel/2019-09/64-ia-32-architectures-optimization-manual.pdf
 83cbb2	../docs/intel/2019-09/64-ia-32-architectures-optimization-manual.pdf
+910d2d	../docs/amd/2021-11/26568_3.25.pdf
 98dfae	../docs/arm/2020-07-17/DDI0487Fc_armv8_arm.pdf
 9ac	../docs/amd/2019-08/56305_SOG_3.00_PUB.pdf
 9ac888	../docs/amd/2019-08/56305_SOG_3.00_PUB.pdf
@@ -38,6 +41,7 @@ ad5608	../docs/amd/2019-09/24594.pdf
 bb0	../docs/amd/2019-10/24593.pdf
 bb00db	../docs/amd/2019-10/24593.pdf
 c77a21	../docs/amd/2025-07/24594_3.37.pdf
+c90251	../docs/intel/2025-06/319433-058-architecture-instruction-set-extensions-programming-reference.pdf
 cf34ed	../docs/intel/2020-05/335592-sdm-vol-4.pdf
 d88fa3	../docs/amd/2020-05/24593.pdf
 dcc	../docs/amd/2019-02/26568.pdf
