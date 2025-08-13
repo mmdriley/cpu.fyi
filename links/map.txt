@@ -1,3 +1,4 @@
+0168c6	../docs/amd/2025-08/24592_3.24.pdf
 047	../docs/arm/2019-07-05/DDI0487E_a_armv8_arm.pdf
 047a1d	../docs/arm/2019-07-05/DDI0487E_a_armv8_arm.pdf
 05c	../docs/amd/2017-06/55723_3_00.PDF
@@ -13,6 +14,7 @@
 47e28e	../docs/intel/2019-05/253665-sdm-vol-1.pdf
 484	../docs/intel/2019-05/325383-sdm-vol-2abcd.pdf
 48412c	../docs/intel/2019-05/325383-sdm-vol-2abcd.pdf
+4a1b0c	../docs/amd/2025-06/24593_3.43.pdf
 511e45	../docs/amd/2020-05/26568.pdf
 575e52	../docs/intel/2020-05/325384-sdm-vol-3abcd.pdf
 5d64d3	../docs/amd/2020-04/24594.pdf
@@ -35,6 +37,7 @@ ad5	../docs/amd/2019-09/24594.pdf
 ad5608	../docs/amd/2019-09/24594.pdf
 bb0	../docs/amd/2019-10/24593.pdf
 bb00db	../docs/amd/2019-10/24593.pdf
+c77a21	../docs/amd/2025-07/24594_3.37.pdf
 cf34ed	../docs/intel/2020-05/335592-sdm-vol-4.pdf
 d88fa3	../docs/amd/2020-05/24593.pdf
 dcc	../docs/amd/2019-02/26568.pdf
