@@ -4,6 +4,19 @@ on:
   push:
     branches: ["main"]
 
+# Specify permissions for `GITHUB_TOKEN`. Of note: if we specify *anything* here,
+# we must specify *everything*, since:
+# > If you specify the access for any of these permissions, all of those that
+# > are not specified are set to none.
+# https://docs.github.com/en/actions/reference/workflows-and-actions/workflow-syntax#permissions
+#
+# In particular, `deploy-pages` requires `id-token: write` and `pages: write` per
+# https://github.com/actions/deploy-pages/blob/main/README.md#usage
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
 jobs:
   publish:
     runs-on: ubuntu-latest
