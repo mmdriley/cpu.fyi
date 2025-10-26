@@ -1,0 +1,3 @@
+# This file is >100MB and can't be added to the repository.
+# Instead, we download it during the publish step.
+/DDI0487L_b_a-profile_architecture_reference_manual.pdf

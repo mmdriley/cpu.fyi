@@ -38,6 +38,7 @@ a4856	../docs/power/2017-03-29/PowerISA_public.v3.0B.pdf
 a4856a	../docs/power/2017-03-29/PowerISA_public.v3.0B.pdf
 ad5	../docs/amd/2019-09/24594.pdf
 ad5608	../docs/amd/2019-09/24594.pdf
+b60408	../docs/arm/2025-04-30/DDI0487L_b_a-profile_architecture_reference_manual.pdf
 bb0	../docs/amd/2019-10/24593.pdf
 bb00db	../docs/amd/2019-10/24593.pdf
 c77a21	../docs/amd/2025-07/24594_3.37.pdf

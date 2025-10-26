@@ -23,6 +23,9 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v5
+      - name: Download big files
+        run: |
+          (cd docs/arm/2025-04-30 && ./get)
       - name: Configure GitHub Pages
         # not sure what this *does* in steady-state, but it's present in the
         # default config and I don't care enough to be different.
