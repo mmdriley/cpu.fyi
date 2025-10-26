@@ -1,0 +1,22 @@
+# ref: https://github.com/actions/starter-workflows/blob/main/pages/static.yml
+
+on:
+  push:
+    branches: ["main"]
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v5
+      - name: Configure GitHub Pages
+        # not sure what this *does* in steady-state, but it's present in the
+        # default config and I don't care enough to be different.
+        uses: actions/configure-pages@v5
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: '.'  # because we didn't build to _site/
+      - name: Deploy to GitHub Pages
+        uses: actions/deploy-pages@v4
